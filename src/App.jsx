@@ -285,6 +285,17 @@ export default function App() {
                 <Typography variant="overline" sx={{ color: 'rgba(245, 255, 253, 0.72)' }}>
                   Frontend sistema de ventas
                 </Typography>
+
+
+                <Typografy>
+                  <Stack>
+                  direction={{ xs: 'column', md: 'row' }}
+                  justifyContent="space-between"
+                  alignItems={{ xs: 'flex-start', md: 'center' }}
+                  spacing={2}
+                  </Stack>
+                </Typografy>
+
               </Stack>
               <Typography variant="h3" sx={{ maxWidth: 700 }}>
                 {currentStep === 'customer'
