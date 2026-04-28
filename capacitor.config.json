@@ -1,0 +1,13 @@
+{
+  "appId": "com.frontendsistemaventas.app",
+  "appName": "Sistema Ventas",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}

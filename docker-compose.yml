@@ -1,0 +1,9 @@
+services:
+  frontend-sistema-ventas:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: frontend-sistema-ventas:latest
+    container_name: frontend-sistema-ventas-app
+    ports:
+      - "4173:80"
